@@ -454,21 +454,22 @@ Although the library has error handling and has been tested on different SDK ver
 
 ### Compatibility (Based on Android Studio Emulator)
 
-| API | Download File | Install APK  | Merge Incremental Package |
-|-----|---------------|--------------|---------------------------|
-| 24  | √             | √            | To be tested              |
-| 25  | To be tested  | To be tested | To be tested              |
-| 26  | √             | √            | To be tested              |
-| 27  | To be tested  | To be tested | To be tested              |
-| 28  | To be tested  | To be tested | To be tested              |
-| 29  | √             | √            | To be tested              |
-| 30  | To be tested  | To be tested | To be tested              |
-| 31  | √             | √            | To be tested              |
-| 32  | To be tested  | To be tested | To be tested              |
-| 33  | To be tested  | To be tested | To be tested              |
-| 34  | √             | √            | √                         |
-| 35  | √             | √            | √                         |
-| 36  | To be tested  | To be tested | To be tested              |
+| API | Download File | Install APK | Merge Package |
+|------|----------|----------|-------------|
+| 24   | ✔️       | ✔️        | ✔️          |
+| 25   | ✔️       | ✔️        | ✔️          |
+| 26   | ✔️       | ✔️        | ✔️          |
+| 27   | ✔️       | ✔️        | ✔️          |
+| 28   | ✔️       | ✔️        | ✔️          |
+| 29   | ✔️       | ✔️        | ✔️          |
+| 30   | ✔️       | ✔️        | ✔️          |
+| 31   | ✔️       | ✔️        | ✔️          |
+| 32   | ✔️       | ✔️        | ✔️          |
+| 33   | ✔️       | ✔️        | ✔️          |
+| 34   | ✔️       | ✔️        | ✔️          |
+| 35   | ✔️       | ✔️        | ✔️          |
+| 36   | ✔️       | ✔️        | ✔️          |
+
 
 ### Customization
 
