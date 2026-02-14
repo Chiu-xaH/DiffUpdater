@@ -72,7 +72,7 @@ maven {
 ```
 添加依赖，版本以Tag为准
 ```Groovy
-implementation("com.github.Chiu-xaH:DiffUpdater:2.0-dev01")
+implementation("com.github.Chiu-xaH:DiffUpdater:2.0")
 ```
 
 ### 配置FileProvider
@@ -179,7 +179,7 @@ DiffUpdate(DiffType.H_DIFF_PATCH).mergeCallback(it, context)
 
 DiffUpdate类有若干合并补丁包函数，其中第一个为基础函数，开发者可以调用后自行处理报错和成功后的操作。其余三个函数为预设，均基于第一个再封装。
 ```Kotlin
-class DifferUpdate(private val differType : DifferType) {
+class DiffUpdate(private val differType : DifferType) {
     // 基础函数，传入DiffContent和Context，对传入的补丁包与本体Apk进行合并并校验MD5，完成后返回DiffResult
     suspend fun merge (
         diffContent: DiffContent,
